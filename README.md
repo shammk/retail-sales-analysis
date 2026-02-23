@@ -1,5 +1,6 @@
 📊 Retail Sales Analysis
 A Data Analytics Case Study on Revenue, Profitability & Customer Behaviour
+
 🌟 Portfolio Case Study Introduction
 This project is designed as a complete, end‑to‑end analytics case study that mirrors the type of work performed in real business environments. It demonstrates your ability to:
 
@@ -42,16 +43,14 @@ Data Visualization
 
 
 📁 Repository Structure
-Code
 Retail-Sales-Analysis/
-│── data/
-│    └── retail_sales_dummy_dataset.csv
-│── notebooks/
-│    └── retail_sales_analysis.ipynb
-│── images/
-│    └── (exported charts)
-│── README.md
-│── requirements.txt
+├── data/
+├── notebooks/
+│   └── retail_sales_analysis.ipynb
+├── images/
+├── README.md
+└── requirements.txt
+
 📈 Visual Highlights
 Below are the key visualizations used to explore sales performance and profitability.
 (Insert each uploaded image under its heading.)
@@ -167,7 +166,7 @@ Increase inventory and marketing around March and July.
 
 1. Clone the repository
 2. Install dependencies: pip install -r requirements.txt
-3. Open the notebook: jupyter notebook retail_sales_analysis.ipynb
+3. Open the notebook: jupyter notebook Retailsales.ipynb
 4. Run all cells to reproduce the analysis
 
 🚀 Future Enhancements
