@@ -40,7 +40,6 @@ Jupyter Notebook
 
 Data Visualization
 
-(Optional) Power BI / Tableau for dashboards
 
 📁 Repository Structure
 Code
