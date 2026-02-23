@@ -43,11 +43,10 @@ Data Visualization
 
 
 📁 Repository Structure
-Retail-Sales-Analysis/
+retail-sales-analysis/
 ├── data/
-├── notebooks/
-│   └── Retailsales.ipynb.ipynb
 ├── images/
+├── Retailsales.ipynb
 ├── README.md
 └── requirements.txt
 
