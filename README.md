@@ -46,7 +46,7 @@ Data Visualization
 Retail-Sales-Analysis/
 ├── data/
 ├── notebooks/
-│   └── retail_sales_analysis.ipynb
+│   └── Retailsales.ipynb.ipynb
 ├── images/
 ├── README.md
 └── requirements.txt
