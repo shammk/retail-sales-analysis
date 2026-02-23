@@ -1,191 +1,184 @@
-📊 Retail Sales Data Analysis Project
+📊 Retail Sales Analysis
+A Data Analytics Case Study on Revenue, Profitability & Customer Behaviour
+🌟 Portfolio Case Study Introduction
+This project is designed as a complete, end‑to‑end analytics case study that mirrors the type of work performed in real business environments. It demonstrates your ability to:
+
+Clean and prepare raw data
+
+Explore patterns and trends
+
+Build clear, compelling visualizations
+
+Extract meaningful insights
+
+Translate findings into actionable business recommendations
+
+The goal is not just to analyse data — but to tell a story that helps decision‑makers understand what’s happening, why it’s happening, and what they should do next.
+
 📌 Project Overview
+This analysis explores a retail sales dataset to uncover performance drivers across regions, product categories, and sales channels. It also examines the impact of discounting, seasonal trends, and customer behaviour.
 
-This project presents a complete end-to-end data analysis workflow using a retail sales dataset.
-The goal is to extract meaningful business insights from transactional data using Python, Pandas, and Data Visualization techniques — without building prediction models.
+The project showcases a full analytics workflow using Python and Jupyter Notebook, with a focus on clarity, business relevance, and visual storytelling.
 
-The analysis focuses on:
+🎯 Objectives
+Identify top‑performing regions and products
 
-Revenue and profit performance
+Analyse revenue, profit, and margin patterns
 
-Regional sales comparison
+Understand the impact of discounting
 
-Product-level profitability
+Explore monthly and seasonal trends
 
-Discount impact analysis
+Compare online vs in‑store performance
 
-Monthly sales trends
+Provide actionable recommendations for growth
 
-Sales channel comparison
-
-🎯 Business Objective
-
-To analyze retail sales performance and provide actionable insights that help:
-
-Improve profitability
-
-Optimize discount strategies
-
-Identify high-performing products
-
-Understand customer purchasing patterns
-
-Support data-driven business decisions
-
-🛠 Tools & Technologies Used
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
+🛠️ Tools & Technologies
+Python: pandas, numpy, matplotlib, seaborn
 
 Jupyter Notebook
 
-📂 Dataset Description
+Data Visualization
 
-The dataset contains 1000 retail transaction records with the following features:
-| Column        | Description                             |
-| ------------- | --------------------------------------- |
-| Order_ID      | Unique order identifier                 |
-| Order_Date    | Date of transaction                     |
-| Region        | Sales region (North, South, East, West) |
-| Product       | Product name                            |
-| Category      | Product category                        |
-| Quantity      | Units sold                              |
-| Unit_Price    | Price per unit                          |
-| Discount      | Discount applied                        |
-| Revenue       | Total revenue                           |
-| Cost          | Total cost                              |
-| Profit        | Revenue - Cost                          |
-| Sales_Channel | Online or In-Store                      |
+(Optional) Power BI / Tableau for dashboards
 
-
-🔎 Data Analysis Process
-1️⃣ Data Loading & Inspection
-
-Checked data types
-
-Verified missing values
-
-Performed descriptive statistics
-
-2️⃣ Data Cleaning
-
-Confirmed no null values
-
-Validated revenue and profit calculations
-
-Ensured correct datetime format
-
-3️⃣ Feature Engineering
-
-Created additional features:
-
-Month
-
-Year
-
-Profit Margin
-
-4️⃣ Exploratory Data Analysis (EDA)
-
-Analyzed:
-
-Revenue & Profit by Region
-
-Top-selling Products
-
-Monthly Revenue Trends
-
-Discount Impact on Profit
-
-Sales Channel Performance
-
-Product Profit Margins
-
-📊 Key Insights
-
-Electronics generate the highest overall revenue.
-
-Some products generate high revenue but lower profit margins.
-
-Moderate discount levels improve revenue but reduce profit margins.
-
-Online sales contribute significantly to total revenue.
-
-Certain regions consistently outperform others.
-
-💡 Business Recommendations
-
-Focus marketing efforts on high-margin products.
-
-Reevaluate aggressive discount strategies.
-
-Expand online sales channels.
-
-Optimize inventory in high-performing regions.
-
-Monitor seasonal sales trends for promotional planning.
-
-📌 Project Structure
+📁 Repository Structure
+Code
 Retail-Sales-Analysis/
-│
-├── retail_sales_dummy_dataset.csv
-├── retail_sales_analysis.ipynb
-└── README.md
-🚀 Why This Project Matters
+│── data/
+│    └── retail_sales_dummy_dataset.csv
+│── notebooks/
+│    └── retail_sales_analysis.ipynb
+│── images/
+│    └── (exported charts)
+│── README.md
+│── requirements.txt
+📈 Visual Highlights
+Below are the key visualizations used to explore sales performance and profitability.
+(Insert each uploaded image under its heading.)
 
-This project demonstrates:
+1. Revenue & Profit by Region
+<img width="476" height="306" alt="image" src="https://github.com/user-attachments/assets/24a3cae5-de81-416e-b8bd-61c2ac7030ff" />
 
-Strong data wrangling skills
 
-Analytical thinking
+This comparison highlights:
 
-Business-focused insights
+North leads in both revenue and profit
 
-Visualization proficiency
+East and South show moderate, stable performance
 
-Structured problem-solving
+West generates strong revenue but slightly lower profit, suggesting margin pressure
 
-Professional documentation
+2. Revenue by Product
+<img width="502" height="334" alt="image" src="https://github.com/user-attachments/assets/1c65a805-8820-49eb-941d-c736c0608a4d" />
 
-📄 PORTFOLIO-LEVEL EXECUTIVE SUMMARY
 
-You can place this at the top of your notebook or inside your README.
+Key observations:
 
-Executive Summary
+Laptops and Phones dominate revenue
 
-This project analyzes retail transaction data to evaluate overall business performance and uncover key revenue and profitability drivers.
+Tablets and Monitors form the mid‑tier
 
-The dataset contains 1000 retail transactions across multiple regions, products, and sales channels. The objective was to perform structured exploratory data analysis to extract actionable business insights.
+Headphones contribute the least, indicating potential for repositioning
 
-Key Findings:
+3. Monthly Revenue Trend
+<img width="641" height="295" alt="image" src="https://github.com/user-attachments/assets/4f6f9b80-2937-4398-bf94-349e56ce7842" />
 
-Revenue is primarily driven by electronics products, particularly high-priced items.
 
-While certain products generate strong revenue, their profit margins are comparatively lower due to higher costs and discount impact.
+Seasonal patterns include:
 
-Discount levels above moderate thresholds increase sales volume but significantly reduce profitability.
+Peaks around March and July
 
-Online sales channels contribute a substantial portion of total revenue, highlighting the importance of digital presence.
+Dips around June and November
 
-Sales performance varies across regions, suggesting opportunities for targeted regional strategies.
+Overall stable performance with predictable fluctuations
 
-Monthly revenue trends indicate potential seasonality patterns useful for marketing and inventory planning.
+4. Sales Channel Distribution
+<img width="377" height="292" alt="image" src="https://github.com/user-attachments/assets/609efac2-da30-48f8-8626-a4b4364603ae" />
 
-Strategic Implications:
 
-The business should prioritize high-margin products rather than focusing solely on revenue.
+A nearly even split:
 
-Discount strategies should be optimized to balance volume growth and profitability.
+Online: 51%
 
-Strengthening online sales infrastructure may increase overall performance.
+In‑Store: 49%
 
-Region-specific marketing campaigns could improve underperforming areas.
+This indicates a strong digital presence and opportunities for further online growth.
 
-This analysis demonstrates how structured data exploration can support strategic decision-making without relying on predictive modeling.
+5. Average Revenue & Profit by Discount Level
+<img width="485" height="307" alt="image" src="https://github.com/user-attachments/assets/4d6f9f1f-e7da-46eb-8c0e-d6f42c6d8178" />
+
+
+Clear trend:
+
+Both revenue and profit decline as discounts increase
+
+Profit drops more sharply
+
+Confirms that aggressive discounting erodes margins
+
+6. Average Profit Margin by Product
+<img width="484" height="277" alt="image" src="https://github.com/user-attachments/assets/4e041ab6-61df-4a19-bbfa-22f6f2233b9c" />
+
+
+Insights:
+
+Profit margins are consistent across products
+
+Indicates stable pricing and cost structures
+
+Useful for identifying premium‑pricing opportunities
+
+🧠 Key Insights
+Bringing all analyses together:
+
+North is the strongest region overall
+
+West shows high revenue but weaker margins
+
+Laptops and Phones are the primary revenue drivers
+
+Seasonal peaks suggest opportunities for targeted campaigns
+
+Online sales slightly outperform in‑store
+
+Discounting has a clear negative impact on profitability
+
+Profit margins are stable across product categories
+
+💡 Recommendations
+Based on the findings:
+
+1. Optimise Discount Strategy
+Reduce unnecessary discounting in categories where profit erosion is highest.
+
+2. Strengthen Online Channel Strategy
+Online is already leading — invest further in digital marketing and UX.
+
+3. Promote High‑Margin Products
+Use targeted campaigns to shift demand toward higher‑margin items.
+
+4. Review Cost Structure in the West Region
+Strong revenue but weaker profit suggests operational inefficiencies.
+
+5. Leverage Seasonal Peaks
+Increase inventory and marketing around March and July.
+
+▶️ How to Run the Project
+
+1. Clone the repository
+2. Install dependencies: pip install -r requirements.txt
+3. Open the notebook: jupyter notebook retail_sales_analysis.ipynb
+4. Run all cells to reproduce the analysis
+
+🚀 Future Enhancements
+Build an interactive Power BI or Tableau dashboard
+
+Add predictive modelling (e.g., sales forecasting)
+
+Customer segmentation using clustering
+
+Automated reporting pipeline
+
+📬 Contact
+If you’d like to discuss this project or explore similar analytics work, feel free to connect.
